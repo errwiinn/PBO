@@ -4,8 +4,7 @@ public class Chickens01 {
 
     public static void main(String[] args) {
         //Put yout code here
-        int eggsPerChicken, chickenCount;
-        int totalEggs;
+        int eggsPerChicken, chickenCount, totalEggs;
         eggsPerChicken = 5;
         chickenCount = 3;
         totalEggs = eggsPerChicken * chickenCount;
