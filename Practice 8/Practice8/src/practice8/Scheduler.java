@@ -34,13 +34,14 @@ public class Scheduler {
             temp.add(tempday);
             coldcount = 0;
             day++;
+            JOptionPane.showConfirmDialog(null, "Ready!");
             Game game1 = new Game();
             Game game2 = new Game();
             if (day > 10) {
                 break;
             }
         }
-      
+
         double averageTemp = 0;
         for (int totaltemp : temp) {
             averageTemp += totaltemp;
